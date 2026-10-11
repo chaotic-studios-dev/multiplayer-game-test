@@ -1,7 +1,7 @@
 const canvas = document.querySelector('canvas')
 const c = canvas.getContext('2d')
 
-const socket = io()
+const socket = io("https://multiplayer-game-test-tild.onrender.com")
 
 const scoreEl = document.querySelector('#scoreEl')
 
